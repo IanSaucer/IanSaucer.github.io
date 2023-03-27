@@ -1,6 +1,6 @@
 body 
 {
-    background:lightblue;
+    background: #c0816a;
     font-family: Arial;
 }
 .assignment
@@ -8,15 +8,34 @@ body
     display:flex;
     padding:10px;
     margin:10px;
-    background-color: rgb(120,200,255);
+    background-color: #D9C2AD;
+    
 }
 .assignment img
 {
     width:200px;
-    padding:10px;
+    margin:10px;
+    padding:2px;
+    border: 2px #99af47 solid;
 }
+.assignment img:hover
+{
+    border: 2px #cca292 solid;
+}
+
 h1
 {
-    color: rgb(200, 0, 0);
+    color: #99af47;
     text-align: center;
+    text-shadow: -0.5px -0.5px 0 #222601, 0.5px -0.5px 0 #222601, -0.5px 0.5px 0 #222601, 0.5px 0.5px 0 #222601;
+}
+
+a { 
+    text-decoration: none;
+    color: #A6705D;
+    text-shadow: -0.5px -0.5px 0 #733F2D, 0.5px -0.5px 0 #733F2D, -0.5px 0.5px 0 #733F2D, 0.5px 0.5px 0 #733F2D;
+
+}
+a:hover{
+    color:#cca292;
 }
